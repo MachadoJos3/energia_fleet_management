@@ -20,6 +20,7 @@ Antes de rodar o projeto, você precisa ter o seguinte instalado na sua máquina
 - **Node.js**: Você pode baixar o Node.js em [https://nodejs.org/](https://nodejs.org/).
 - **MySQL**: Você pode baixar o MySQL em [https://www.mysql.com/](https://www.mysql.com/).
 - Rodar o dump do banco
+- JWT_SECRET gerado com o comando node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"
 ## Rodando o Backend
 
 1. Clone este repositório para sua máquina:
@@ -32,9 +33,7 @@ Antes de rodar o projeto, você precisa ter o seguinte instalado na sua máquina
    
 3. Entre na pasta do backend do projeto
 -- cd backend
-4. Crie um arquivo .env na raiz da pasta do backend com as variáveis de ambiente
-   JWT_SECRET gerado com o comando node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"
-   
+4. Edite e renomeie o arquivo .env.template na raiz da pasta do backend com as suas credenciais
    JWT_SECRET=seu_token_secreto_aqui
    PORT=3000
    DATABASE_URL=mysql://root:senha_do_banco@localhost:3306/nome_do_banco
@@ -46,7 +45,9 @@ npm install
 npx tsc
 8. No front
    npm install
-7. Rode o servidor
+7. Edite e renomeie o arquivo .env.template na raiz da pasta do com a URL da api
+  NEXT_PUBLIC_API_URL=your_api_key
+8. Rode o servidor
    npm run dev
 
 -- Usuario de login de exemplo

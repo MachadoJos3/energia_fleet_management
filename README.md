@@ -19,7 +19,7 @@ Antes de rodar o projeto, você precisa ter o seguinte instalado na sua máquina
 
 - **Node.js**: Você pode baixar o Node.js em [https://nodejs.org/](https://nodejs.org/).
 - **MySQL**: Você pode baixar o MySQL em [https://www.mysql.com/](https://www.mysql.com/).
-
+- Rodar o dump do banco
 ## Rodando o Backend
 
 1. Clone este repositório para sua máquina:
@@ -48,3 +48,7 @@ npx tsc
    npm install
 7. Rode o servidor
    npm run dev
+
+-- Usuario de login de exemplo
+    email:jose@exemplo.com
+    senha:senha123

@@ -1,0 +1,14 @@
+.custom-toast-success {
+    background-color:#32ac5b;
+    color: white;
+}
+
+.custom-toast-error {
+    background-color: red;
+    color: white;
+}
+
+.custom-toast-warning {
+    background-color: rgb(253, 164, 0);
+    color: white;
+}

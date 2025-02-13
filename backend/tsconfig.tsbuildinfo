@@ -1,0 +1,1 @@
+{"root":["./src/app.ts","./src/db.ts","./src/controllers/usercontroller.ts","./src/controllers/vehiclecontroller.ts","./src/middlewares/authmiddleware.ts","./src/models/user.ts","./src/models/vehicle.ts","./src/routes/userroutes.ts"],"errors":true,"version":"5.7.3"}
